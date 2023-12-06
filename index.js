@@ -25,3 +25,10 @@ const startGame = () =>{
     }
     messageEl.textContent = message
 }
+
+function newCard() {
+    console.log("Drawing a new card from the deck!")
+    let card = 3
+    sum += card
+    startGame()
+}
