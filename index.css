@@ -11,10 +11,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f4f8;
+  background-color:rgb(232, 232, 232);
 }
 h1 {
-    color: goldenrod;
+    color: #5220da;
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 5px;
@@ -24,14 +24,15 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #121a21;
-    color: white;
+    background-color: white;
+    color: #191a1b;
     width: 400px;
     height: 50vh;
     border-radius: 5px;
     margin:auto;
     text-align: center;
     padding: 16px;
+    border: 2px solid #d7d7d7;
 }
 #message-el {
     font-style: italic;
@@ -44,13 +45,14 @@ p {
 
 button {
     width: 150px;
-    color: #121a21;
+    color:white;
     background: goldenrod;
     padding: 5px 10px;
     border-radius: 2px;
     border: none;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 .btn{
     margin-top: 5px;
