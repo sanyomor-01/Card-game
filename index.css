@@ -38,6 +38,7 @@ main{
 }
 #message-el {
     font-style: italic;
+    color: rgb(37, 163, 41);
 }
 p {
     margin-bottom: 10px;
