@@ -7,19 +7,19 @@
     font-family: 'Karla', sans-serif;
 }
 body{
-  width: 1280px;
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(232, 232, 232);
+  background: linear-gradient(135deg, #01041e, #920cbe);
 }
 h1 {
     color: #5220da;
-    font-size: 48px;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 5px;
+    text-align: left;
 }
 main{
     display: flex;
@@ -27,9 +27,9 @@ main{
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: #191a1b;
-    width: 400px;
-    height: 50vh;
+    color: #425768;
+    width: 360px;
+    height: 45vh;
     border-radius: 5px;
     margin:auto;
     text-align: center;
@@ -46,8 +46,9 @@ p {
     font-weight: 700;
 }
 
+
 button {
-    width: 150px;
+    width: 200px;
     color:white;
     background: goldenrod;
     padding: 5px 10px;
@@ -57,11 +58,16 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+button:hover{
+    background-color:#F2F4F8;
+    animation-delay: ease 0.3s;
+    color: goldenrod;
+}
 .btn{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 #player-el {
     margin-top: 5px;
-    color: #0d0d2f;
+    
 }
