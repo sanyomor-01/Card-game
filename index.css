@@ -57,3 +57,8 @@ button {
 .btn{
     margin-top: 5px;
 }
+
+#player-el {
+    margin-top: 5px;
+    color: #0d0d2f;
+}
